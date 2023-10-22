@@ -10,6 +10,11 @@ package Calculator;
 // составляющих пары, а также переопределение метода toString(), возвращающее строковое
 // представление пары.
 
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
+
+
 public class Main {
     public static void main(String[] args) {
         Integer integer = 5;
@@ -18,7 +23,12 @@ public class Main {
         Long lon = 2345L;
         Byte by = 12;
         Character ch = 'd';
-        Calculator.sum(integer, flo);
+        Calculator.sum(flo, doub);
+        Map<String, String> d = new HashMap<>();
+        Map.Entry.comparingByKey();
+
+
+
     }
 
     /**
